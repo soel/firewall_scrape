@@ -291,7 +291,7 @@ sub file_private_extraction{
   my $global = "";
 
   while(<$handle>){
-    if (/set mappedip $addr/){
+    if (/set mappedip $addr$/){
       if ($prev2 =~ /set extip (.*)/){
         $global = $1;
       }

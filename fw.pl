@@ -8,7 +8,7 @@ use warnings;
 
 sub file_open{
   my $handle = undef;
-  open($handle, '<', 'bbfw-01.config') or die "$!";
+  open($handle, '<', 'fw.config') or die "$!";
 
   return $handle;
 }

@@ -11,7 +11,7 @@ use warnings;
 
 sub file_open{
   my $handle = undef;
-  open($handle, '<', 'bbfw-21.conf') or die "$!";
+  open($handle, '<', 'fw.conf') or die "$!";
 
   return $handle;
 
